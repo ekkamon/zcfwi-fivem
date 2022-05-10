@@ -43,6 +43,13 @@ interface Loadout {
   [key: string]: Weapon;
 }
 
+interface Profile {
+  firstName: string;
+  lastName: string;
+  dateOfBirth: string;
+  height: number;
+}
+
 interface Coords {
   x: number;
   y: number;
@@ -58,6 +65,7 @@ export declare interface PlayerType {
   inventory: Inventory;
   accounts: Accounts;
   loadout: Loadout;
+  profile: Profile;
   coords: Coords;
   setAccountMoney: (account: string, money: number) => void;
   getInventoryItem: (name: string) => Item;
