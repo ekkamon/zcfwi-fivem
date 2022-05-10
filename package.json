@@ -1,0 +1,15 @@
+{
+  "name": "zcfwi-fivem",
+  "version": "1.0.0",
+  "description": "This is a interface of \"ZC Framework\" for FiveM",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekkamon/zcfwi-fivem.git"
+  },
+  "author": "ZECON",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekkamon/zcfwi-fivem/issues"
+  },
+  "homepage": "https://github.com/ekkamon/zcfwi-fivem#readme"
+}
