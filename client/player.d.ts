@@ -69,5 +69,5 @@ export declare interface PlayerType {
   coords: Coords;
   setAccountMoney: (account: string, money: number) => void;
   getInventoryItem: (name: string) => Item;
-  setInventoryItemCount: (name: string, count: string) => void;
+  setInventoryItemCount: (name: string, count: number) => void;
 }
