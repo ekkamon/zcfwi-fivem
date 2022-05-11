@@ -54,6 +54,7 @@ interface Profile {
   firstName: string;
   lastName: string;
   dateOfBirth: string;
+  sex: string;
   height: number;
 }
 
