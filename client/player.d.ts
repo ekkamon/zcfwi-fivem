@@ -1,5 +1,6 @@
 export declare interface Item {
   name: string;
+  label: string;
   count: number;
   type: string;
   rare: number;
