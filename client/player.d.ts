@@ -72,4 +72,7 @@ export declare interface PlayerType {
   setAccountMoney: (account: string, money: number) => void;
   getInventoryItem: (name: string) => Item;
   setInventoryItemCount: (name: string, count: number) => void;
+  setWeapon: (name: string, label: string, ammo: number) => void;
+  setWeaponAmmo: (name: string, ammo: number) => void;
+  removeWeapon: (name: string) => void;
 }
