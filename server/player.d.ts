@@ -79,6 +79,10 @@ export declare interface Player {
   getInventoryItem: (name: string) => void;
   addInventoryItem: (name: string, count: number) => void;
   removeInventoryItem: (name: string, count: number) => void;
+  getWeapon: (name: string) => void;
+  addWeapon: (name: string, ammo: number) => void;
+  addWeaponAmmo: (name: string, ammo: number) => void;
+  removeWeapon: (name: string) => void;
   destroy: () => void;
   save: () => Promise<void>;
 }
