@@ -1,3 +1,3 @@
 export interface Functions {
-  PlayAnimation: (animDict: string, callback) => void;
+  RequestAnimDict: (animDict: string, callback) => void;
 }
