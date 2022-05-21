@@ -33,11 +33,7 @@ interface Weapon {
   name: string;
   label: string;
   ammo: number;
-  tintIndex?: WeaponTints;
-}
-
-interface WeaponTints {
-  [key: number]: string;
+  tintIndex?: number;
 }
 
 interface Loadout {
